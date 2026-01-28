@@ -1,23 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cayleigh Haag | Portfolio</title>
-</head>
-<body>
-  <h1>Cayleigh Haag</h1>
-  <p>Computer Science and Mathematics Student at Stanford University</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cayleigh Haag | Portfolio</title>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/yourusername/project1">Project 1</a></li>
-    <li><a href="https://github.com/yourusername/project2">Project 2</a></li>
-  </ul>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-  <h2>Contact</h2>
-  <p>Phone: +1(908) 328-9371</p>
-  <p>School email: cayleigh@stanford.edu</p>
-  <p>Personal email: cayleighhaag10@gmail.com</p>
-</body>
+  <body class="bg-slate-950 text-slate-100">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+      <!-- Header / Hero -->
+      <header class="flex flex-col gap-6">
+        <div class="flex items-center justify-between flex-wrap gap-4">
+          <h1 class="text-3xl md:text-5xl font-bold tracking-tight">
+            Cayleigh Haag
+          </h1>
+
+          <!-- Social buttons -->
+          <div class="flex gap-3 flex-wrap">
+            <!-- Replace with your real LinkedIn URL -->
+            <a
+              href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+              target="_blank"
+              class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 transition"
+            >
+              LinkedIn
+            </a>
+
+            <!-- Replace with your real GitHub URL -->
+            <a
+              href="https://github.com/YOUR-GITHUB"
+              target="_blank"
+              class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 transition"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="#contact"
+              class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 transition"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+
+        <p class="text-lg md:text-xl text-slate-300 max-w-3xl">
+          Computer Science and Mathematics Student at Stanford University
+        </p>
+
+        <!-- Call-to-action buttons -->
+        <div class="flex gap-3 flex-wrap">
+          <a
+            href="#projects"
+            class="px-5 py-3 rounded-2xl bg-blue-600 hover:bg-blue-500 transition font-semibold"
+          >
+            View Projects
+          </a>
+
+          <!-- IMPORTANT: upload resume.pdf into your repo -->
+          <a
+            href="resume.pdf"
+            download
+            class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-900 transition font-semibold"
+          >
+            Download Resume
+          </a>
+
+          <!-- IMPORTANT: upload transcript.pdf into your repo -->
+          <a
+            href="transcript.pdf"
+            download
+            class="px-5 py-3 rounded-2xl border border-slate-700 hover:bg-slate-900 transition font-semibold"
+          >
+            Download Transcript
+          </a>
+        </div>
+      </header>
+
+      <!-- Divider -->
+      <div class="my-12 h-px bg-slate-800"></div>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="flex items-end justify-between gap-4 flex-wrap mb-6">
+          <h2 class="text-2xl md:text-3xl font-bold">Projects</h2>
+          <p class="text-slate-400 text-sm">
+            Click a project to view it on GitHub
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Project 1 -->
+          <a
+            href="https://github.com/yourusername/project1"
+            target="_blank"
+            class="block rounded-2xl border border-slate-800 bg-slate-900/40 p-6 hover:bg-slate-900 transition"
+          >
+            <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+            <p class="text-slate-300">
+              Short description of your project (what it does + tech stack).
+            </p>
+
+            <div class="mt-4 text-blue-400 font-medium">
+              View on GitHub →
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a
+            href="https://github.com/yourusername/project2"
+            target="_blank"
+            class="block rounded-2xl border border-slate-800 bg-slate-900/40 p-6 hover:bg-slate-900 transition"
+          >
+            <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+            <p class="text-slate-300">
+              Short description of your project (what it does + tech stack).
+            </p>
+
+            <div class="mt-4 text-blue-400 font-medium">
+              View on GitHub →
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="my-12 h-px bg-slate-800"></div>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6">Contact</h2>
+
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-200">
+            <div>
+              <p class="text-slate-400 text-sm">Phone</p>
+              <p class="font-medium">+1 (908) 328-9371</p>
+            </div>
+
+            <div>
+              <p class="text-slate-400 text-sm">School Email</p>
+              <a
+                href="mailto:cayleigh@stanford.edu"
+                class="font-medium hover:text-blue-400 transition"
+              >
+                cayleigh@stanford.edu
+              </a>
+            </div>
+
+            <div>
+              <p class="text-slate-400 text-sm">Personal Email</p>
+              <a
+                href="mailto:cayleighhaag10@gmail.com"
+                class="font-medium hover:text-blue-400 transition"
+              >
+                cayleighhaag10@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-12 text-sm text-slate-500">
+        © <span id="year"></span> Cayleigh Haag
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
+
