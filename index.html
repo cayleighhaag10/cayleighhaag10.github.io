@@ -6,23 +6,24 @@
     <title>Cayleigh Haag | Portfolio</title>
 
     <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      // Define custom colors BEFORE loading Tailwind
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              primary: '#D3CCFF',   // warm periwinkle
-              secondary: '#B8B0FF', // medium warm purple
-              accent: '#8E85FF',    // accent with depth
-              text: '#E6E0FF',      // readable soft text
-              bg: '#201E33',        // deep, subtle dark background
+              primary: '#D3CCFF',
+              secondary: '#B8B0FF',
+              accent: '#8E85FF',
+              text: '#E6E0FF',
+              bg: '#201E33',
             },
           },
         },
       }
     </script>
+
+    <!-- Load Tailwind AFTER defining config -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
   </head>
 
