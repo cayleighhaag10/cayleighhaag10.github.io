@@ -7,7 +7,6 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="icon" type="image/png" href="logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -64,11 +63,11 @@
         </div>
 
         <p class="text-lg md:text-xl text-text max-w-3xl">
-          Computer Science (Systems and Artificial Intelligence) and Mathematics Student at Stanford University
+          M.S. Computer Science (Artificial Intelligence) and B.S. Computer Science (Systems) with a Mathematics minor at Stanford University
         </p>
 
         <p class="text-sm md:text-sm text-text max-w-3xl">
-          <strong>Programming Languages:</strong> C, C++, Python, ObjectiveC, Swift, Java, Ada <br>
+          <strong>Programming Languages:</strong> C, C++, Python, Objective-C, Swift, Java, Ada <br>
           <strong>Tools & Frameworks:</strong> Git, Jira, Pandas, NumPy, PyTorch, Unix/Linux environments, QGIS, ArcGIS, Windows API <br>
           <strong>ML & AI Tools:</strong> Claude, ChatGPT, SAM2, YOLO <br>
           <strong>Technical Areas:</strong> Machine Learning, Computer Vision, Operating Systems, Systems Programming, Algorithms and Data Structures, Software Development, Computer Architecture
@@ -76,6 +75,7 @@
 
         <!-- Call-to-action buttons -->
         <div class="flex gap-3 flex-wrap">
+          <a href="#education" class="px-5 py-3 rounded-2xl bg-accent hover:bg-primary transition font-semibold">Education</a>
           <a href="#experience" class="px-5 py-3 rounded-2xl bg-accent hover:bg-primary transition font-semibold">Work Experience & Research</a>
           <a href="#projects" class="px-5 py-3 rounded-2xl bg-accent hover:bg-primary transition font-semibold">Projects</a>
           <a href="#papers" class="px-5 py-3 rounded-2xl bg-accent hover:bg-primary transition font-semibold">Papers</a>
@@ -95,8 +95,38 @@
           <h2 class="text-2xl md:text-3xl font-bold mb-6">About Me</h2>
           <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
             <p class="text-sm md:text-base text-text leading-relaxed">
-              Hi, I’m Cayleigh Haag, a Computer Science and Mathematics student at Stanford University. I’m passionate about <strong>systems programming</strong> and building robust, efficient software that powers real-world applications. I’m also deeply interested in applying <strong>artificial intelligence</strong> to create products and solutions that provide tangible value, helping people and organizations solve meaningful problems. Whether improving workflows, developing engineering tools, or exploring new technologies, I enjoy turning ideas into practical, impactful results.
+              Hi, I’m Cayleigh Haag, a coterminal Computer Science and Mathematics student at Stanford University, completing a B.S. in Computer Science (Systems) with a Mathematics minor alongside an M.S. in Computer Science (Artificial Intelligence). I’m passionate about <strong>systems programming</strong> and building robust, efficient software that powers real-world applications. I’m also deeply interested in applying <strong>artificial intelligence</strong> to create products and solutions that provide tangible value, helping people and organizations solve meaningful problems. Whether improving workflows, developing engineering tools, or exploring new technologies, I enjoy turning ideas into practical, impactful results.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="my-12 h-px bg-secondary/40"></div>
+
+      <!-- Education -->
+      <section id="education" class="my-12">
+        <div class="max-w-5xl mx-auto px-6">
+          <h2 class="text-2xl md:text-3xl font-bold mb-6">Education</h2>
+
+          <div class="space-y-6">
+            <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xl font-semibold text-text">Master of Science, Computer Science (Artificial Intelligence)</h3>
+                <span class="text-secondary text-sm">Expected 2027</span>
+              </div>
+              <p class="text-secondary font-medium mb-2">Stanford University</p>
+              <p class="text-text">GPA: 3.92/4.0</p>
+            </div>
+
+            <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xl font-semibold text-text">Bachelor of Science, Computer Science (Systems), Mathematics Minor</h3>
+                <span class="text-secondary text-sm">Class of 2027</span>
+              </div>
+              <p class="text-secondary font-medium mb-2">Stanford University</p>
+              <p class="text-text">GPA: 3.94/4.0</p>
+            </div>
           </div>
         </div>
       </section>
@@ -110,7 +140,23 @@
           <h2 class="text-2xl md:text-3xl font-bold mb-6">Work Experience & Research</h2>
 
           <div class="space-y-6">
-            <!-- Repeat each experience card -->
+            <!-- Apple -->
+            <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-xl font-semibold text-text">Software Engineering Intern, UI Frameworks</h3>
+                <span class="text-secondary text-sm">2026</span>
+              </div>
+              <p class="text-secondary font-medium mb-2">Apple</p>
+              <ul class="list-disc list-inside text-text space-y-1">
+                <li>Designed a launch system, allowing apps to distinguish launches involving UI from non-UI (headless/background) launches, enabling both first-party and third-party app optimizations.</li>
+                <li>Identified unnecessary launch-time UI work through heap and call-stack analysis, then implemented the fixes in Objective-C and Swift.</li>
+                <li>Built an agent-pipeline to run a 1,000+ trial A/B benchmark across two device generations, measuring a 10.7% reduction in non-UI app launch time.</li>
+                <li>Root-caused and fixed two iOS bugs.</li>
+                <li>Picked up Swift and Objective-C during the internship, quickly reaching independent contribution across multiple large-scale codebases.</li>
+              </ul>
+            </div>
+
+            <!-- Boeing -->
             <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
               <div class="flex items-center justify-between mb-2">
                 <h3 class="text-xl font-semibold text-text">C-17 Software Intern</h3>
@@ -129,9 +175,9 @@
             <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
               <div class="flex items-center justify-between mb-2">
                 <h3 class="text-xl font-semibold text-text">Stanford CESTA Research Intern</h3>
-                <span class="text-secondary text-sm">Jan 2025 - Sept 2025</span>
+                <span class="text-secondary text-sm">Jan 2025 &ndash; Sept 2025</span>
               </div>
-              <p class="text-secondary font-medium mb-2">Stanford CESTA (Center for Visual & Textual Analysis)</p>
+              <p class="text-secondary font-medium mb-2">Stanford CESTA (Center for Spatial and Textual Analysis)</p>
               <ul class="list-disc list-inside text-text space-y-1">
                 <li>Applied YOLO object detection to identify aqueduct structures in historical satellite maps.</li>
                 <li>Automated GIS workflows using Python and QGIS.</li>
@@ -169,7 +215,7 @@
             <div class="p-6 bg-primary/20 border border-secondary rounded-2xl hover:bg-primary/40 transition">
               <div class="flex items-center justify-between mb-2">
                 <h3 class="text-xl font-semibold text-text">Programs Coordinator</h3>
-                <span class="text-secondary text-sm">2018 - 2023</span>
+                <span class="text-secondary text-sm">2018 &ndash; 2023</span>
               </div>
               <p class="text-secondary font-medium mb-2">Girls Code the World</p>
               <ul class="list-disc list-inside text-text space-y-1">
@@ -192,7 +238,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a href="Cayleigh Haag Report Out.pdf" target="_blank" class="block rounded-2xl border border-secondary bg-primary/20 p-6 hover:bg-primary/40 transition">
-            <h3 class="text-xl font-semibold mb-2 text-text">Boeing Internship (Summer 2025)</h3>
+            <h3 class="text-xl font-semibold mb-2 text-text">Boeing C-17 Report Out (2025)</h3>
             <p class="text-text">
               This presentation summarizes my contributions as a Software Engineering Intern at The Boeing Company (Summer 2025). I improved the C-17 flight deck screen testing tool, Playback, by implementing feature enhancements and refactoring components of the existing codebase (hosted on GitHub). These changes were pushed for long-term use in the C-17 engineering team’s workflow.
               I also designed and implemented a spatial hashing algorithm to condense data for C-17 Multifunctional Displays, improving data organization and usability. Additionally, I helped lead the transition of four engineering teams to Jira, coordinating the migration and supporting adoption alongside senior C-17 project managers.
@@ -201,16 +247,15 @@
           </a>
 
           <!-- Add other projects similarly -->
-          <a target="_blank" class="block rounded-2xl border border-secondary bg-primary/20 p-6 hover:bg-primary/40 transition">
-            <h3 class="text-xl font-semibold mb-2 text-text">Pintos Operating System Project (CS 112)</h3>
+          <div class="block rounded-2xl border border-secondary bg-primary/20 p-6">
+            <h3 class="text-xl font-semibold mb-2 text-text">Pintos Operating System Implementation (CS 112, 2025)</h3>
             <ul class="list-disc list-inside text-text space-y-2">
               <li>Implemented kernel-level threading, priority scheduling (with priority donation), and a multi-level feedback queue scheduler in C</li>
               <li>Designed supplemental page tables, frame table, and swap table to support demand paging and virtual memory</li>
               <li>Improved page fault handler; implemented clock-based page eviction algorithm</li>
               <li>Developed system call interface, safe user memory access validation</li>
             </ul>
-
-          </a>
+          </div>
         </div>
       </section>
 
@@ -233,6 +278,7 @@
             <h3 class="text-xl font-semibold mb-2 text-text">
               Pixelated transformations: Tracing changing irrigation management through deep-learning-based object detection on HEXAGON and SkySat satellite images
             </h3>
+            <p class="text-secondary text-sm mb-2">2026</p>
             <p class="text-text">
               A YOLO-based deep-learning detector was used to track historical irrigation systems (kariz) in Turpan, Xinjiang. Analysis of satellite imagery from 1974–2019 identified over 160,000 features across 500 km², revealing patterns of maintenance, fragmentation, and community collaboration. The study demonstrates how AI can enhance archaeological insights into the management and transformation of technology over time.
             </p>
@@ -251,6 +297,7 @@
             <h3 class="text-xl font-semibold mb-2 text-text">
               The Hanging Chain: Exploring the Mathematics of Transverse Oscillations
             </h3>
+            <p class="text-secondary text-sm mb-2">2025</p>
             <p class="text-text">
               Investigated the mathematical formulation of the hanging chain problem, exploring the Partial Differential Equations governing its motion.
             </p>
@@ -380,6 +427,18 @@
             <h3 class="font-semibold text-lg mb-1 text-text">Introduction to Making: What Is EE? (ENGR 40M) </h3>
             <p class="text-text text-sm">Hands-on electrical engineering, prototyping, and design thinking. </p>
           </div>
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="my-12 h-px bg-secondary/40"></div>
+
+      <!-- Hobbies -->
+      <section id="hobbies">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6">Hobbies</h2>
+
+        <div class="rounded-2xl border border-secondary bg-primary/20 p-6">
+          <p class="text-text">Boston Marathon Qualifier &amp; Finisher (2024) | Running, Hiking, Swimming</p>
         </div>
       </section>
 
